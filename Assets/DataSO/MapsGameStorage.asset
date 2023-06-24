@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 648b74d828bc47669a4d3e6fe3b40708, type: 3}
+  m_Name: MapsGameStorage
+  m_EditorClassIdentifier: 
+  MapsGameStorageDescriptors:
+  - MapType: 0
+    EnemyCars:
+    - {fileID: -3013369411638663699, guid: 2ad55857cf07ccc458fcfc43e8b4a06d, type: 3}
+    RoadMaterial: {fileID: 2100000, guid: 571a6c1187065f244981fec5fe45eafd, type: 2}
+    EnviromentMaterial: {fileID: 2100000, guid: dc79b8e39554fd742b3f3bbf4c9dfa9a, type: 2}
+    EnviromentLayerPrefab: {fileID: 7000484263909630028, guid: 6d3993098d9e60d4d979310538a28620, type: 3}
+    _mapMusic: 8
+  - MapType: 1
+    EnemyCars:
+    - {fileID: -1462805243100249810, guid: f48cdf90f133bdc488c470b695441a5f, type: 3}
+    - {fileID: 6215928470305415173, guid: 54f2e35e59ff1014da3bdf63d3403e4c, type: 3}
+    RoadMaterial: {fileID: 2100000, guid: 8ddd4d4fe7c0ff048911bf51d40b4ed9, type: 2}
+    EnviromentMaterial: {fileID: 2100000, guid: 9877a6f94cc60b7448f9060c5ceedb0e, type: 2}
+    EnviromentLayerPrefab: {fileID: 1651677047416962230, guid: 5b139c39e8824024dbc383802565cb21, type: 3}
+    _mapMusic: 9

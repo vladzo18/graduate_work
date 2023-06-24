@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4606892ce9d4c19bdbb584bc81c55d9, type: 3}
+  m_Name: VehicleShopStorage
+  m_EditorClassIdentifier: 
+  VehicleDescriptors:
+  - Type: 1
+    ThreeDModel: {fileID: 919132149155446097, guid: 72df476b91a647546bca1ae89ea35e5c, type: 3}
+    Icon: {fileID: 21300000, guid: 4eee4a7b2556a934d867bf30997d9d78, type: 3}
+    Price: 0
+    Name: Taxi
+  - Type: 2
+    ThreeDModel: {fileID: 919132149155446097, guid: 2e8a009232187d4478b01686e25b9ddc, type: 3}
+    Icon: {fileID: 21300000, guid: 3318a78ee858b8a4a96d95aa70799c99, type: 3}
+    Price: 500
+    Name: Police

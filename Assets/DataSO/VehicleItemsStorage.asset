@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18ab44379e704937a45427368123de68, type: 3}
+  m_Name: VehicleItemsStorage
+  m_EditorClassIdentifier: 
+  VehicleItemDescriptors:
+  - Type: 1
+    VehicleEntity: {fileID: 7872285280718517160, guid: 244b128aa5726984086c95192524cc0b, type: 3}
+    ItemPrefab: {fileID: 2743725233469557395, guid: 10cbe2d156343d84dbb7ee889b04cc28, type: 3}
+  - Type: 2
+    VehicleEntity: {fileID: 8730605913603489716, guid: 0bd93b27906c6f443a79573955df3db1, type: 3}
+    ItemPrefab: {fileID: 2743725233469557395, guid: 91de3bf39fb45ff458a472bfb5412ef6, type: 3}
